@@ -1,0 +1,22 @@
+{
+  "name": "ulka-starter-default",
+  "version": "1.0.0",
+  "description": "Default starter for ulka js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acharyaroshanji/ulka-starter-default.git"
+  },
+  "author": "Roshan Acharya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acharyaroshanji/ulka-starter-default/issues"
+  },
+  "homepage": "https://github.com/acharyaroshanji/ulka-starter-default#readme",
+  "devDependencies": {
+    "ulka": "^0.2.7"
+  }
+}
