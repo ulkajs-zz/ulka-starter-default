@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ulka default starter</title>
+
+    {% $importUlka('/src/components/styles.ulka') %}
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/dracula.min.css" />
+  </head>
+  <body class="dark">
+    <div class="container">
+      <main>
+      
+        {% $importUlka('/src/components/nav.ulka') %}
+
+        <div class="blog-title">{% frontMatter.title %}</div>
+        <span class="blog-date">{% new Date(frontMatter.date).toDateString() %}</span>
+        <div class="blog-body">
+         {% data %}
+        </div>
+      </main>
+      <footer>
+        &copy; 2020, Ulka Js
+      </footer>
+    </div>
+
+
+   {% $importUlka('/src/components/darkMode.ulka') %}
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+  </body>
+</html>

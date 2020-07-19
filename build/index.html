@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ulka default starter</title>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" />
+<link rel="stylesheet" href="\__assets__\83586d38fb1ee289268850e46ef425.css" />
+  </head>
+  <body class="dark">
+    <div class="container">
+      <main>
+      
+      <nav>
+          <div class="title">
+            <a href="/">ulka js</a>
+          </div>
+          <div id="nav-links">
+            <li><a href="/about">about</a></li>
+            <li><a href="/blog">blog</a></li>
+          </div>
+        </nav>
+
+        <h1>Hello, I am Roshan Acharya</h1>
+        <h3>creator of ulka js</h3>
+        <br />
+        <p>This is a default starter for ulka js</p>
+      </main>
+      <footer>
+        &copy; 2020, Ulka Js
+      </footer>
+    </div>
+
+   <button id="toggle-dark">☀  ☾</button>
+
+    <script>
+        let theme = localStorage.getItem('theme') || "light"
+        document.body.className = theme
+        document.querySelector("#toggle-dark").textContent = theme === "light" ? "☾" : "☀"
+
+      document.querySelector("#toggle-dark").addEventListener("click", (e) => {
+        document.body.classList.toggle("dark");
+        document.body.classList.toggle("light");
+        localStorage.setItem("theme", document.body.className)
+        document.querySelector("#toggle-dark").textContent = document.body.className === "light" ? "☾" : "☀"
+      });
+    </script>
+  </body>
+</html>

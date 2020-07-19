@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ulka default starter</title>
+    {% $importUlka('/src/components/styles.ulka') %}
+  </head>
+  <body class="dark">
+    <div class="container">
+      <main>
+        {% $importUlka('/src/components/nav.ulka') %}
+        This is about me
+        <br />
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores,
+        maxime?
+      </main>
+      <footer>
+        &copy; 2020, Ulka Js
+      </footer>
+    </div>
+
+       {% $importUlka('/src/components/darkMode.ulka') %}
+
+  </body>
+</html>

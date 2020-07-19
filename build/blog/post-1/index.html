@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ulka default starter</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" />
+<link rel="stylesheet" href="\__assets__\83586d38fb1ee289268850e46ef425.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/dracula.min.css" />
+  </head>
+  <body class="dark">
+    <div class="container">
+      <main>
+      
+        <nav>
+          <div class="title">
+            <a href="/">ulka js</a>
+          </div>
+          <div id="nav-links">
+            <li><a href="/about">about</a></li>
+            <li><a href="/blog">blog</a></li>
+          </div>
+        </nav>
+
+        <div class="blog-title">Getting started with ulka</div>
+        <span class="blog-date">Sun Feb 02 2020</span>
+        <div class="blog-body">
+         <h1>This is a heading 1</h1>
+<blockquote>
+<p>This is a quote</p>
+</blockquote>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros magna, fermentum a metus sed, accumsan mattis dolor. Aliquam sed tortor at magna hendrerit egestas quis in nisl. Mauris fringilla sit amet nunc pellentesque venenatis. Nunc sodales elit eu sodales mollis. Sed pellentesque posuere ultrices. Proin semper nunc sed feugiat molestie. In vestibulum dictum vestibulum.</p>
+<h2>This is heading 2</h2>
+<p>Fusce eu nulla sit amet ex maximus molestie quis vitae nisi. Vivamus facilisis, eros eu condimentum vehicula, nisi ligula cursus nibh, fermentum luctus nibh magna at erat. Donec enim elit, elementum scelerisque mauris vel, aliquet tempor nulla. Pellentesque dictum molestie neque in consequat. Suspendisse sapien sem, hendrerit vel dignissim ac, rhoncus eget magna. Vivamus blandit feugiat dui luctus convallis. Vestibulum id nunc nunc.</p>
+<h3>This is heading 3</h3>
+<p>Cras ultrices tincidunt nibh, id consectetur tellus tempus mollis. Sed nisi quam, maximus at risus et, feugiat accumsan urna. Aenean ac massa quam. Phasellus mollis nisl ac sapien pulvinar volutpat. Vestibulum ut ligula efficitur, pellentesque libero sit amet, pellentesque urna. Quisque molestie placerat facilisis. In ante quam, varius at blandit et, eleifend ut massa. Sed arcu metus, mattis quis erat eget, iaculis malesuada felis. Suspendisse mauris est, convallis at malesuada vel, egestas at magna. Praesent et aliquam lectus. Praesent in leo odio. Proin sit amet vulputate arcu, ac venenatis est. Phasellus purus quam, accumsan eget eleifend at, aliquam vitae urna. Donec nec pulvinar diam.</p>
+<h4>This is heading 4</h4>
+<p>Aliquam eleifend nulla vel nulla ultricies, id viverra justo fringilla. In hac habitasse platea dictumst. Maecenas volutpat varius volutpat. Praesent vitae blandit justo. Nam ultrices quam felis, id faucibus purus sagittis porttitor. Sed facilisis orci id dolor faucibus tincidunt. Donec vel mauris sit amet odio tempus lacinia. Etiam vel congue elit. Duis porta lectus sapien, non tristique sapien sodales sit amet. In feugiat, tellus eget dapibus rutrum, lorem sem feugiat ligula, sit amet euismod sapien mauris non nisl. Suspendisse aliquet metus porta, tincidunt nulla ut, euismod felis. Sed a lectus justo. Phasellus semper finibus pulvinar. Donec tristique nisi quis nisl imperdiet, quis tempor ex rutrum.</p>
+<pre><code class="language-js">console.log(&quot;Hello World&quot;);
+</code></pre>
+        </div>
+      </main>
+      <footer>
+        &copy; 2020, Ulka Js
+      </footer>
+    </div>
+
+
+   <button id="toggle-dark">☀  ☾</button>
+
+    <script>
+        let theme = localStorage.getItem('theme') || "light"
+        document.body.className = theme
+        document.querySelector("#toggle-dark").textContent = theme === "light" ? "☾" : "☀"
+
+      document.querySelector("#toggle-dark").addEventListener("click", (e) => {
+        document.body.classList.toggle("dark");
+        document.body.classList.toggle("light");
+        localStorage.setItem("theme", document.body.className)
+        document.querySelector("#toggle-dark").textContent = document.body.className === "light" ? "☾" : "☀"
+      });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+  </body>
+</html>

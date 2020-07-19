@@ -4,7 +4,8 @@
   "description": "Default starter for ulka js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ulka serve",
+    "bulid": "ulka build"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/acharyaroshanji/ulka-starter-default#readme",
   "devDependencies": {
-    "ulka": "^0.2.7"
-  }
+    "ulka": "^0.3.2"
+  },
+  "dependencies": {}
 }

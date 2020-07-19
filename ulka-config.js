@@ -1,6 +1,7 @@
 // All the configurations are changable
 
 module.exports = {
+  require,
   // siteMetaData is available inside all md and ulka files
   siteMetaData: {
     title: "UlkaJs",

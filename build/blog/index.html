@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ulka default starter</title>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" />
+<link rel="stylesheet" href="\__assets__\83586d38fb1ee289268850e46ef425.css" />
+  </head>
+  <body class="dark">
+    <div class="container">
+      <main>
+        <nav>
+          <div class="title">
+            <a href="/">ulka js</a>
+          </div>
+          <div id="nav-links">
+            <li><a href="/about">about</a></li>
+            <li><a href="/blog">blog</a></li>
+          </div>
+        </nav>
+        
+        <div id="blogs">
+        
+        <div class="blog-item">
+            <a href="\blog\post-2">
+              <div class="blog-title">Posting again as a second post</div>
+            </a>
+            <div class="blog-desc">
+              this is a second blog
+            </div>
+            <div class="blog-date">Mon Feb 03 2020</div>
+        </div>
+            
+
+        <div class="blog-item">
+            <a href="\blog\post-1">
+              <div class="blog-title">Getting started with ulka</div>
+            </a>
+            <div class="blog-desc">
+              this is a first blog
+            </div>
+            <div class="blog-date">Sun Feb 02 2020</div>
+        </div>
+            
+          
+        </div>
+      </main>
+      <footer>
+        &copy; 2020, Ulka Js
+      </footer>
+    </div>
+
+       <button id="toggle-dark">☀  ☾</button>
+
+    <script>
+        let theme = localStorage.getItem('theme') || "light"
+        document.body.className = theme
+        document.querySelector("#toggle-dark").textContent = theme === "light" ? "☾" : "☀"
+
+      document.querySelector("#toggle-dark").addEventListener("click", (e) => {
+        document.body.classList.toggle("dark");
+        document.body.classList.toggle("light");
+        localStorage.setItem("theme", document.body.className)
+        document.querySelector("#toggle-dark").textContent = document.body.className === "light" ? "☾" : "☀"
+      });
+    </script>
+
+  </body>
+</html>
