@@ -3,17 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ulka default starter</title>
+    <title>About | {% siteMetaData.title %}</title>
     {% $importUlka('/src/components/styles.ulka') %}
   </head>
   <body class="dark">
     <div class="container">
       <main>
         {% $importUlka('/src/components/nav.ulka') %}
-        This is about me
+        <h1>This is about me</h1>
         <br />
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores,
         maxime?
+        <br />
+
+        <blockquote>Yeah, that's all about me. Not complicated at all</blockquote>
       </main>
       <footer>
         &copy; 2020, Ulka Js

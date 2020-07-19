@@ -1,0 +1,11 @@
+<meta property="og:type" content="website">
+<meta property="og:url" content="ulka-starter-default.netlify.com">
+<meta property="og:title" content="{% siteMetaData.title %}">
+<meta property="og:description" content="{siteMetaData.description}">
+<meta property="og:image" content="https://i.imgur.com/coa1q5T.png">
+
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="ulka-starter-default.netlify.com">
+<meta property="twitter:title" content="{% siteMetaData.title %}">
+<meta property="twitter:description" content="{siteMetaData.description}">
+<meta property="twitter:image" content="https://i.imgur.com/coa1q5T.png">

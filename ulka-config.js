@@ -5,7 +5,7 @@ module.exports = {
   // siteMetaData is available inside all md and ulka files
   siteMetaData: {
     title: "UlkaJs",
-    desription: "Default Ulka Starter",
+    desription: "This is a default starter for ulka js",
   },
   // Build path from root dir
   buildPath: "build",

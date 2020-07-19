@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ulka default starter</title>
+    <title>Home | {% siteMetaData.title %}</title>
       {% $importUlka('/src/components/styles.ulka') %}
   </head>
   <body class="dark">
@@ -12,10 +12,15 @@
       
       {% $importUlka('/src/components/nav.ulka') %}
 
-        <h1>Hello, I am Roshan Acharya</h1>
-        <h3>creator of ulka js</h3>
+        <h2>Hey, I am Roshan 👋</h2>
+        <blockquote>creator of ulka js</blockquote>
         <br />
-        <p>This is a default starter for ulka js</p>
+        If you have any queries regarding ulka ssg or this starter template dm me at 
+        <a style="text-decoration: underline;" href="https://twitter.com/acharyaroshanji">twitter</a>
+  <br/>
+  <br/>
+        You can find this starter template at 
+        <a style="text-decoration: underline;" href="https://github.com/acharyaroshanji/ulka-starter-default">Github</a>
       </main>
       <footer>
         &copy; 2020, Ulka Js
