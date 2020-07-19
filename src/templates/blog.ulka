@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> {% frontMatter.title %} | {% siteMetaData.title %}</title>
-
+    {% $importUlka('/src/components/metaTags.ulka') %}
     {% $importUlka('/src/components/styles.ulka') %}
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/dracula.min.css" />
