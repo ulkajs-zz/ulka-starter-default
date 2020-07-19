@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "ulka serve",
-    "bulid": "ulka build"
+    "build": "ulka build"
   },
   "repository": {
     "type": "git",
