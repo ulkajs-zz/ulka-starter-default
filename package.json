@@ -20,5 +20,8 @@
   "devDependencies": {
     "ulka": "^0.3.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "axios": "^0.19.2",
+    "remarkable": "^2.0.1"
+  }
 }
