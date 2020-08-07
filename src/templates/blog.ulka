@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> {% frontMatter.title %} | {% siteMetaData.title %}</title>
-    {% $importUlka('/src/components/metaTags.ulka') %}
-    {% $importUlka('/src/components/styles.ulka') %}
+    {% $importUlka('../components/metaTags.ulka') %}
+    {% $importUlka('../components/styles.ulka') %}
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/dracula.min.css" />
   </head>
@@ -13,7 +13,7 @@
     <div class="container">
       <main>
       
-        {% $importUlka('/src/components/nav.ulka') %}
+        {% $importUlka('../components/nav.ulka') %}
 
         <div class="blog-title">{% frontMatter.title %}</div>
         <span class="blog-date">{% new Date(frontMatter.date).toDateString() %}</span>
@@ -27,7 +27,7 @@
     </div>
 
 
-   {% $importUlka('/src/components/darkMode.ulka') %}
+   {% $importUlka('../components/darkMode.ulka') %}
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
     <script>

@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog | {% siteMetaData.title %}</title>
-    {% $importUlka('/src/components/metaTags.ulka') %}
-   {% $importUlka('/src/components/styles.ulka') %}
+    {% $importUlka('../components/metaTags.ulka') %}
+   {% $importUlka('../components/styles.ulka') %}
   </head>
   <body class="dark">
     <div class="container">
       <main>
-        {% $importUlka('/src/components/nav.ulka') %}
+        {% $importUlka('../components/nav.ulka') %}
         
         <div id="blogs">
         {% globalInfo.contentFiles.slice().sort((a, b) => new Date(b.frontMatter.date) - new Date(a.frontMatter.date)).map(cf => {
@@ -34,7 +34,7 @@
       </footer>
     </div>
 
-       {% $importUlka('/src/components/darkMode.ulka') %}
+       {% $importUlka('../components/darkMode.ulka') %}
 
   </body>
 </html>
