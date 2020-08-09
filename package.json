@@ -9,16 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/acharyaroshanji/ulka-starter-default.git"
+    "url": "git+https://github.com/ulkajs/ulka-starter-default.git"
   },
   "author": "Roshan Acharya",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/acharyaroshanji/ulka-starter-default/issues"
+    "url": "https://github.com/ulkajs/ulka-starter-default/issues"
   },
-  "homepage": "https://github.com/acharyaroshanji/ulka-starter-default#readme",
+  "homepage": "https://github.com/ulkajs/ulka-starter-default#readme",
   "devDependencies": {
-    "ulka": "^0.3.5"
+    "ulka": "^0.3.7"
   },
   "dependencies": {
     "axios": "^0.19.2",
