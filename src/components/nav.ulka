@@ -2,8 +2,8 @@
   <div class="title">
     <a href="/">ulka js</a>
   </div>
-  <div id="nav-links">
+  <ul id="nav-links">
     <li><a href="/about">about</a></li>
     <li><a href="/blog">blog</a></li>
-  </div>
+  </ul>
 </nav>

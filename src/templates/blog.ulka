@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> {% frontMatter.title %} | {% siteMetaData.title %}</title>
+    <title> {% frontMatter.title %} | {% globalInfo.configs.siteMetaData.title %}</title>
     {% $importUlka('../components/metaTags.ulka') %}
     {% $importUlka('../components/styles.ulka') %}
 
