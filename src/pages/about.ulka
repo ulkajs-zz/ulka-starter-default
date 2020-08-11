@@ -1,5 +1,4 @@
-{% const techs = require('/data/tech.js') %}
-
+{% const techs = require('/data/tech.js'); %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,7 +17,6 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores,
         maxime?
         <br />
-
         <blockquote>Yeah, that's all about me. Not complicated at all</blockquote>
 
         {% techs.map(tech => {
