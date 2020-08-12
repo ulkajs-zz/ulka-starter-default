@@ -12,12 +12,12 @@
     <div class="container">
       <main>
         {% $importUlka('../components/nav.ulka') %}
-        <h1>This is about me</h1>
+        <h1>This is about me.</h1>
         <br />
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores,
         maxime?
         <br />
-        <blockquote>Yeah, that's all about me. Not complicated at all</blockquote>
+        <blockquote>Yeah, that's all about me. Not complicated at all.</blockquote>
 
         {% techs.map(tech => {
           return `<span class="badge">${tech}</span>`

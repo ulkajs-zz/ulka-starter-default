@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/ulkajs/ulka-starter-default#readme",
   "devDependencies": {
-    "ulka": "^0.3.9"
+    "ulka": "^0.4.1-rc.2"
   },
   "dependencies": {
     "axios": "^0.19.2",
