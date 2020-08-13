@@ -24,7 +24,7 @@
               <div class="blog-date">${new Date(cf.frontMatter.date).toDateString() }</div>
             </div>
             `
-        }).join("\n") %}
+        }) %}
         </div>
       </main>
       <footer>
