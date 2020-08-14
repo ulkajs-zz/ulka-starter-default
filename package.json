@@ -18,11 +18,12 @@
   },
   "homepage": "https://github.com/ulkajs/ulka-starter-default#readme",
   "devDependencies": {
-    "ulka": "^0.4.1-rc.4"
+    "ulka": "^0.4.1-rc.8"
   },
   "dependencies": {
     "axios": "^0.19.2",
     "remarkable": "^2.0.1",
-    "ulka-plugin-reading-time": "^1.0.1"
+    "ulka-plugin-reading-time": "^1.0.1",
+    "ulka-remarkable-link-headers": "^1.0.0"
   }
 }

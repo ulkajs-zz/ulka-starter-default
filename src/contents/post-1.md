@@ -22,6 +22,12 @@ Cras ultrices tincidunt nibh, id consectetur tellus tempus mollis. Sed nisi quam
 
 Aliquam eleifend nulla vel nulla ultricies, id viverra justo fringilla. In hac habitasse platea dictumst. Maecenas volutpat varius volutpat. Praesent vitae blandit justo. Nam ultrices quam felis, id faucibus purus sagittis porttitor. Sed facilisis orci id dolor faucibus tincidunt. Donec vel mauris sit amet odio tempus lacinia. Etiam vel congue elit. Duis porta lectus sapien, non tristique sapien sodales sit amet. In feugiat, tellus eget dapibus rutrum, lorem sem feugiat ligula, sit amet euismod sapien mauris non nisl. Suspendisse aliquet metus porta, tincidunt nulla ut, euismod felis. Sed a lectus justo. Phasellus semper finibus pulvinar. Donec tristique nisi quis nisl imperdiet, quis tempor ex rutrum.
 
+### Images
+
+![giphy](./giphy.gif)
+
+<img src="{% $assets('./jslogo.png') %}" alt="jslogo">
+
 ```js
 console.log("Hello World");
 ```

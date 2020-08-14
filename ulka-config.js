@@ -12,7 +12,17 @@ module.exports = {
   pagesPath: "pages",
   //   Path to the templates dir from src dir
   templatesPath: "templates",
-  plugins: ["ulka-plugin-reading-time"],
+  plugins: [
+    "ulka-plugin-reading-time",
+    {
+      resolve: "ulka-remarkable-link-headers",
+      options: {
+        hLevels: [1, 2],
+        setAnchor: false,
+        anchorValue: "# ",
+      },
+    },
+  ],
   contents: {
     // Path to the directory of markdown files from src dir
     path: "contents",

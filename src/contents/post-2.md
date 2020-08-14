@@ -1,6 +1,6 @@
 ---
-title: "Posting again as a second post"
-description: "this is a second blog"
+title: "Syntax highlighting"
+description: "This blog shows the syntax highlight"
 date: 2020-2-3
 ---
 
