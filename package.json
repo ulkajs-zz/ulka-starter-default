@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "axios": "^0.19.2",
-    "remarkable": "^2.0.1"
+    "remarkable": "^2.0.1",
+    "ulka-plugin-reading-time": "^1.0.1"
   }
 }

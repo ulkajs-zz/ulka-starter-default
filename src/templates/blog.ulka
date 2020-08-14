@@ -16,10 +16,8 @@
         {% $importUlka('../components/nav.ulka') %}
 
         <div class="blog-title">{% frontMatter.title %}</div>
-        <span class="blog-date">{% new Date(frontMatter.date).toDateString() %}</span>
+        <span class="blog-date">{% new Date(frontMatter.date).toDateString() %} | {% frontMatter.readingTime.text %}</span>
         <div class="blog-body">
-          <div>Total characters: {% frontMatter.totalWords %}</div>
-
          {% data %}
         </div>
       </main>

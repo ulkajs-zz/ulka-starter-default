@@ -1,5 +1,4 @@
 // All the configurations are changable
-const demoPlugin = require("./plugins/demo-plugin");
 
 module.exports = {
   // siteMetaData is available inside all md and ulka files
@@ -13,7 +12,7 @@ module.exports = {
   pagesPath: "pages",
   //   Path to the templates dir from src dir
   templatesPath: "templates",
-  plugins: [demoPlugin],
+  plugins: ["ulka-plugin-reading-time"],
   contents: {
     // Path to the directory of markdown files from src dir
     path: "contents",
