@@ -4,7 +4,7 @@ module.exports = {
   siteMetaData: {
     title: "UlkaJs",
     description: "This is a default starter for ulka js",
-    domain: "https://ulka-starter-default.com.np",
+    domain: "https://ulka-starter-default.netlify.app/",
   },
   buildPath: "build",
   pagesPath: "pages",
