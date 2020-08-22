@@ -110,3 +110,29 @@ pre span {
   padding: 4px 10px;
   margin: 0 5px;
 }
+.ulka-anchor {
+  fill: var(--secondary-color);
+  visibility: hidden;
+  position: absolute;
+  transform: translateX(-100%);
+  top: 0;
+  left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+}
+
+h1:hover .ulka-anchor,
+h2:hover .ulka-anchor,
+h3:hover .ulka-anchor,
+h4:hover .ulka-anchor,
+h5:hover .ulka-anchor,
+h6:hover .ulka-anchor {
+  visibility: visible;
+}

@@ -12,6 +12,12 @@ module.exports = {
   plugins: [
     "ulka-plugin-reading-time",
     {
+      resolve: "ulka-plugin-autolink-headers",
+      options: {
+        elements: ["h1", "h2"],
+      },
+    },
+    {
       resolve: "ulka-plugin-sitemap",
     },
   ],

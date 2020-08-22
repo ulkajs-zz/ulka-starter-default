@@ -21,7 +21,8 @@
   "dependencies": {
     "axios": "^0.19.2",
     "remarkable": "^2.0.1",
-    "ulka": "^0.4.2",
+    "ulka": "^0.4.3-rc.1",
+    "ulka-plugin-autolink-headers": "^1.0.0",
     "ulka-plugin-reading-time": "^1.0.1",
     "ulka-plugin-sitemap": "^1.0.7"
   }
