@@ -7,7 +7,7 @@
     {% $importUlka('../components/metaTags.ulka') %}
    {% $importUlka('../components/styles.ulka') %}
   </head>
-  <body class="dark">
+  <body class="light">
     <div class="container">
       <main>
         {% $importUlka('../components/nav.ulka') %}

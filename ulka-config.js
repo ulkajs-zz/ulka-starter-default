@@ -12,14 +12,6 @@ module.exports = {
   plugins: [
     "ulka-plugin-reading-time",
     {
-      resolve: "ulka-remarkable-link-headers",
-      options: {
-        hLevels: [1, 2, 3],
-        setAnchor: false,
-        anchorValue: "# ",
-      },
-    },
-    {
       resolve: "ulka-plugin-sitemap",
       options: {
         lastmod: true,
