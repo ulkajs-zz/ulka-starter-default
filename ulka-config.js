@@ -10,7 +10,10 @@ module.exports = {
   pagesPath: "pages",
   templatesPath: "templates",
   plugins: [
-    "ulka-plugin-reading-time"
+    "ulka-plugin-reading-time",
+    {
+      resolve: "ulka-plugin-sitemap",
+    },
   ],
   contents: {
     path: "contents",

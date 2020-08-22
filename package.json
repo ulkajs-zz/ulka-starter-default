@@ -23,6 +23,6 @@
     "remarkable": "^2.0.1",
     "ulka": "^0.4.2",
     "ulka-plugin-reading-time": "^1.0.1",
-    "ulka-plugin-sitemap": "^1.0.6"
+    "ulka-plugin-sitemap": "^1.0.7"
   }
 }
