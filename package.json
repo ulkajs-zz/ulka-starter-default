@@ -17,14 +17,13 @@
     "url": "https://github.com/ulkajs/ulka-starter-default/issues"
   },
   "homepage": "https://github.com/ulkajs/ulka-starter-default#readme",
-  "devDependencies": {
-    "ulka": "^0.4.1-rc.11"
-  },
+  "devDependencies": {},
   "dependencies": {
     "axios": "^0.19.2",
     "remarkable": "^2.0.1",
+    "ulka": "^0.4.2-rc.2",
     "ulka-plugin-reading-time": "^1.0.1",
-    "ulka-plugin-sitemap": "^1.0.5",
+    "ulka-plugin-sitemap": "^1.0.6",
     "ulka-remarkable-link-headers": "^1.0.0"
   }
 }

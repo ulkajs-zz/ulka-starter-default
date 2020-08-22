@@ -1,1 +1,112 @@
-*{box-sizing:border-box}body{margin:0;padding:0;font-family:"Poppins",sans-serif;background-color:var(--primary-color)}.light{--primary-color: #fff;--secondary-color: rgb(61, 98, 133);--tertiary-color: #111111}.dark{--primary-color: #111111;--secondary-color: #c5c5c5;--tertiary-color: #adadad}blockquote{margin-left:0;padding-left:20px;font-style:italic;border-left:3px solid var(--secondary-color)}a{color:var(--tertiary-color);text-decoration:none}.container{width:90%;max-width:700px;margin:auto}.title a{color:var(--secondary-color)}nav{justify-content:space-between;align-items:center;padding:50px 0}#nav-links,nav{display:flex}nav li{list-style:none;margin-left:10px}nav li a{font-size:20px}#toggle-dark,nav .title{font-size:30px;font-weight:600}main{min-height:calc(100vh - 40px)}#toggle-dark{background:0 0;border:0;position:absolute;top:10px;right:10px;font-size:20px;color:var(--secondary-color);outline:0}.blog-item{border:1px solid var(--tertiary-color);padding:10px;border-radius:10px;margin-bottom:20px}.blog-title,footer,main{color:var(--tertiary-color)}.blog-title{font-size:35px;font-weight:600;margin-bottom:5px}.blog-desc{font-size:16px;margin-bottom:5px}.blog-date{font-size:14px}.blog-body{margin-top:40px}code,pre,pre span{font-family:Ubuntu Mono,monospace!important}.badge{background-color:#dc143c;color:#fff;border-radius:25px;padding:2px 10px;margin:0 5px}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--primary-color);
+}
+.light {
+  --primary-color: #fff;
+  --secondary-color: rgb(61, 98, 133);
+  --tertiary-color: #111111;
+}
+.dark {
+  --primary-color: #111111;
+  --secondary-color: #c5c5c5;
+  --tertiary-color: #adadad;
+}
+blockquote {
+  margin-left: 0;
+  padding-left: 20px;
+  font-style: italic;
+  border-left: 3px solid var(--secondary-color);
+}
+a {
+  color: var(--tertiary-color);
+  text-decoration: none;
+}
+.container {
+  width: 90%;
+  max-width: 700px;
+  margin: auto;
+}
+.title a {
+  color: var(--secondary-color);
+}
+nav {
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+#nav-links,
+nav {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-left: 10px;
+}
+nav li a {
+  font-size: 20px;
+}
+#toggle-dark,
+nav .title {
+  font-size: 30px;
+  font-weight: 600;
+}
+main {
+  min-height: calc(100vh - 40px);
+}
+#toggle-dark {
+  background: 0 0;
+  border: 0;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 20px;
+  color: var(--secondary-color);
+  outline: 0;
+  padding: 0;
+  border-radius: 50%;
+}
+.blog-item {
+  padding: 15px 20px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 13px 3px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+.blog-title,
+footer,
+main {
+  color: var(--tertiary-color);
+}
+.blog-title {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.blog-desc {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.blog-date {
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+.blog-body {
+  margin-top: 40px;
+}
+code,
+pre,
+pre span {
+  font-family: Ubuntu Mono, monospace !important;
+}
+.badge {
+  background-color: #dc143c;
+  color: #fff;
+  border-radius: 4px;
+  padding: 4px 10px;
+  margin: 0 5px;
+}
