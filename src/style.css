@@ -114,9 +114,9 @@ pre span {
   fill: var(--secondary-color);
   visibility: hidden;
   position: absolute;
-  transform: translateX(-100%);
-  top: 0;
+  transform: translate(-100%, 0);
   left: 0;
+  top: 0;
 }
 
 h1,

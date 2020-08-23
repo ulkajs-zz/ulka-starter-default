@@ -14,7 +14,7 @@ module.exports = {
     {
       resolve: "ulka-plugin-autolink-headers",
       options: {
-        elements: ["h1", "h2"],
+        elements: ["h1", "h2", "h3", "h4"],
       },
     },
     {
