@@ -20,6 +20,14 @@ module.exports = {
     {
       resolve: "ulka-plugin-sitemap",
     },
+    "ulka-plugin-retext-smartypants",
+    {
+      resolve: "ulka-plugin-remark-emoji",
+      options: {
+        emoticon: true,
+        padSpaceAfter: true,
+      },
+    },
   ],
   contents: {
     path: "contents",
