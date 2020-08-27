@@ -22,6 +22,7 @@
     "ulka": "^0.4.3-rc.3",
     "ulka-plugin-autolink-headers": "^1.0.2",
     "ulka-plugin-reading-time": "^1.0.1",
+    "ulka-plugin-rehype-highlight": "^1.0.0",
     "ulka-plugin-remark-emoji": "^1.0.0",
     "ulka-plugin-retext-smartypants": "^1.0.0",
     "ulka-plugin-sitemap": "^1.0.7"

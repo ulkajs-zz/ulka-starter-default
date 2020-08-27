@@ -28,6 +28,7 @@ module.exports = {
         padSpaceAfter: true,
       },
     },
+    "ulka-plugin-rehype-highlight",
   ],
   contents: {
     path: "contents",
