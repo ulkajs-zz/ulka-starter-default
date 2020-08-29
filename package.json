@@ -19,7 +19,8 @@
   "homepage": "https://github.com/ulkajs/ulka-starter-default#readme",
   "devDependencies": {},
   "dependencies": {
-    "ulka": "^0.4.3-rc.3",
+    "ulka": "^0.4.3-rc.8",
+    "ulka-plugin-accessible-emoji": "^1.0.3",
     "ulka-plugin-autolink-headers": "^1.0.2",
     "ulka-plugin-reading-time": "^1.0.1",
     "ulka-plugin-rehype-highlight": "^1.0.0",

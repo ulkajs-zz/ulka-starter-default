@@ -1,14 +1,14 @@
- <button id="toggle-dark"></button>
+<button id="toggle-dark"></button>
 
-    <script>
-        let theme = localStorage.getItem('theme') || "light"
-        document.body.className = theme
-        document.querySelector("#toggle-dark").textContent = theme === "light" ? "🌑" : "☀️"
+<script>
+    let theme = localStorage.getItem('theme') || "light"
+    document.body.className = theme
+    document.querySelector("#toggle-dark").textContent = theme === "light" ? "🌑" : "☀️"
 
-      document.querySelector("#toggle-dark").addEventListener("click", (e) => {
-        document.body.classList.toggle("dark");
-        document.body.classList.toggle("light");
-        localStorage.setItem("theme", document.body.className)
-        document.querySelector("#toggle-dark").textContent = document.body.className === "light" ? "🌑" : "☀️"
-      });
-    </script>
+  document.querySelector("#toggle-dark").addEventListener("click", (e) => {
+    document.body.classList.toggle("dark");
+    document.body.classList.toggle("light");
+    localStorage.setItem("theme", document.body.className)
+    document.querySelector("#toggle-dark").textContent = document.body.className === "light" ? "🌑" : "☀️"
+  });
+</script>
