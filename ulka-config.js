@@ -17,9 +17,7 @@ module.exports = {
         elements: ["h1", "h2", "h3", "h4"],
       },
     },
-    {
-      resolve: "ulka-plugin-sitemap",
-    },
+    "ulka-plugin-sitemap",
     "ulka-plugin-retext-smartypants",
     {
       resolve: "ulka-plugin-remark-emoji",

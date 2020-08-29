@@ -20,7 +20,7 @@
   "devDependencies": {},
   "dependencies": {
     "ulka": "^0.4.3-rc.8",
-    "ulka-plugin-accessible-emoji": "^1.0.3",
+    "ulka-plugin-accessible-emoji": "^1.0.5",
     "ulka-plugin-autolink-headers": "^1.0.2",
     "ulka-plugin-reading-time": "^1.0.1",
     "ulka-plugin-rehype-highlight": "^1.0.0",
