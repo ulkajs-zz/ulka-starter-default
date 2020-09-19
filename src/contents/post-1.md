@@ -4,11 +4,11 @@ description: "this is a first blog"
 date: 2020-2-2
 ---
 
-# This is a heading 1 :)
+# This is a heading 1 :dog:
 
-> This is a quote :dog:
+> This is a quote <3
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros magna, fermentum a metus sed, accumsan mattis dolor. Aliquam sed tortor at magna hendrerit egestas quis in nisl. Mauris fringilla sit amet nunc pellentesque venenatis. Nunc sodales elit eu sodales mollis. Sed pellentesque posuere ultrices. Proin semper nunc sed feugiat molestie. In vestibulum dictum vestibulum.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros magna, fermentum a metus sed, accumsan mattis dolor. Aliquam sed tortor at magna hendrerit egestas quis in nisl. Mauris fringilla sit amet nunc pellentesque venenatis. Nunc sodales elit eu sodales mollis. Sed pellentesque posuere ultrices. Proin semper nunc sed feugiat molestie. In vestibulum dictum vestibulum. :bug:
 
 ## This is heading 2 8)
 
@@ -25,7 +25,7 @@ Aliquam eleifend nulla vel nulla ultricies, id viverra justo fringilla. In hac h
 "smart quotes"
 'smart quote'
 
-### Images
+### Images :zap:
 
 ![giphy](./giphy.gif)
 
