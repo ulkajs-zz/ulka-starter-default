@@ -6,8 +6,9 @@
     <title>Blog | {% globalInfo.configs.siteMetaData.title %}</title>
     {% $importUlka('../components/metaTags.ulka') %}
    {% $importUlka('../components/styles.ulka') %}
+
   </head>
-  <body class="light">
+  <body class="dark">
     <div class="container">
       <main>
         {% $importUlka('../components/nav.ulka') %}
