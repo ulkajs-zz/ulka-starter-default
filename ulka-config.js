@@ -18,7 +18,6 @@ module.exports = {
       },
     },
     "ulka-plugin-sitemap",
-    "ulka-plugin-retext-smartypants",
     {
       resolve: "ulka-plugin-remark-emoji",
       options: {

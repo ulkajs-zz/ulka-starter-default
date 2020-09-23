@@ -1,4 +1,5 @@
 {% const techs = require('/data/tech.js'); %}
+
 <!DOCTYPE html>
 <html lang="en">
  
@@ -7,6 +8,7 @@
   <body class="dark">
     <div class="container">
       <main>
+      
         {% $import('../components/nav.ulka') %}
         <h1>This is about me.</h1>
         <br />
@@ -15,9 +17,11 @@
         <br />
         <blockquote>Yeah, that's all about me. Not complicated at all.</blockquote>
 
-        {% techs.map(tech => {
-          return `<span class="badge">${tech}</span>`
-        }).join("") %}
+        <div style="display: flex; flex-flow: wrap">
+          {% techs.map(tech => {
+            return `<div class="badge">${tech}</div>`
+          }) %}
+        </div>
 
       </main>
       <footer>

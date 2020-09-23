@@ -6,4 +6,6 @@ module.exports = [
   "node",
   "react",
   "graphql",
+  "mongodb",
+  "mysql",
 ];

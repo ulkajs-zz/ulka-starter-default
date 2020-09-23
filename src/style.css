@@ -109,7 +109,7 @@ pre span {
   color: var(--primary-color);
   border-radius: 2px;
   padding: 5px 12px;
-  margin: 0 5px;
+  margin: 2px 5px;
 }
 .ulka-anchor {
   fill: var(--heading-color);
