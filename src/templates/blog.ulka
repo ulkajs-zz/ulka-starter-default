@@ -1,22 +1,21 @@
+{%
+  const { title, date } = frontMatter
+  const { readingTime } = fields
+%}
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> {% frontMatter.title %} | {% globalInfo.configs.siteMetaData.title %}</title>
-    {% $importUlka('../components/metaTags.ulka') %}
-    {% $importUlka('../components/styles.ulka') %}
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/dracula.min.css" />
-  </head>
+   {% $import('../components/header.ulka', { title: title }) %}  
+
   <body class="dark">
     <div class="container">
       <main>
       
-        {% $importUlka('../components/nav.ulka') %}
+        {% $import('../components/nav.ulka') %}
 
-        <div class="blog-title">{% frontMatter.title %}</div>
-        <span class="blog-date">{% new Date(frontMatter.date).toDateString() %} | {% frontMatter.readingTime.text %}</span>
+        <div class="blog-title">{% title %}</div>
+        <span class="blog-date">{% new Date(date).toDateString() %} | {% readingTime.text %}</span>
         <div class="blog-body">
          {% data %}
         </div>
@@ -26,9 +25,7 @@
       </footer>
     </div>
 
-
-
-   {% $importUlka('../components/darkMode.ulka') %}
+   {% $import('../components/darkMode.ulka') %}
   
   </body>
 </html>

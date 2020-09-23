@@ -29,8 +29,4 @@ Aliquam eleifend nulla vel nulla ultricies, id viverra justo fringilla. In hac h
 
 ![giphy](./giphy.gif)
 
-<img src="{% $assets('./jslogo.png') %}" alt="jslogo">
-
-```js
-console.log("Hello World");
-```
+<img src="{% $assets('./jslogo.png') %}" alt="jslogo" />

@@ -29,9 +29,11 @@ module.exports = {
     "ulka-plugin-accessible-emoji",
     "ulka-plugin-rehype-highlight",
   ],
-  contents: {
-    path: "contents",
-    generatePath: "blog",
-    template: "blog.ulka",
-  },
+  contents: [
+    {
+      path: "contents",
+      generatePath: "blog",
+      template: "blog.ulka",
+    },
+  ],
 };

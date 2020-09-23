@@ -1,6 +1,6 @@
 <nav>
   <div class="title">
-    <a href="/">ulka js</a>
+    <a href="/">ulka</a>
   </div>
   <ul id="nav-links">
     <li><a href="/about">about</a></li>

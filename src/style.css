@@ -9,22 +9,22 @@ body {
 }
 .light {
   --primary-color: #fff;
-  --secondary-color: rgb(61, 98, 133);
-  --tertiary-color: #111111;
+  --heading-color: rgb(61, 98, 133);
+  --primary-invert-color: #111111;
 }
 .dark {
   --primary-color: #111111;
-  --secondary-color: #c5c5c5;
-  --tertiary-color: #adadad;
+  --heading-color: #c5c5c5;
+  --primary-invert-color: #adadad;
 }
 blockquote {
   margin-left: 0;
   padding-left: 20px;
   font-style: italic;
-  border-left: 3px solid var(--secondary-color);
+  border-left: 3px solid var(--heading-color);
 }
 a {
-  color: var(--tertiary-color);
+  color: var(--primary-invert-color);
   text-decoration: none;
 }
 .container {
@@ -33,7 +33,7 @@ a {
   margin: auto;
 }
 .title a {
-  color: var(--secondary-color);
+  color: var(--heading-color);
 }
 nav {
   justify-content: space-between;
@@ -66,7 +66,7 @@ main {
   top: 20px;
   right: 20px;
   font-size: 20px;
-  color: var(--secondary-color);
+  color: var(--heading-color);
   outline: 0;
   padding: 0;
   border-radius: 50%;
@@ -81,7 +81,7 @@ main {
 .blog-title,
 footer,
 main {
-  color: var(--tertiary-color);
+  color: var(--primary-invert-color);
 }
 .blog-title {
   font-size: 35px;
@@ -94,7 +94,7 @@ main {
 }
 .blog-date {
   font-size: 14px;
-  color: var(--secondary-color);
+  color: var(--heading-color);
 }
 .blog-body {
   margin-top: 40px;
@@ -105,14 +105,14 @@ pre span {
   font-family: Ubuntu Mono, monospace !important;
 }
 .badge {
-  background-color: #dc143c;
-  color: #fff;
-  border-radius: 4px;
-  padding: 4px 10px;
+  background-color: var(--heading-color);
+  color: var(--primary-color);
+  border-radius: 2px;
+  padding: 5px 12px;
   margin: 0 5px;
 }
 .ulka-anchor {
-  fill: var(--secondary-color);
+  fill: var(--heading-color);
   visibility: hidden;
   position: absolute;
   left: 0;

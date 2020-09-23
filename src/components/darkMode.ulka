@@ -12,4 +12,3 @@
     document.querySelector("#toggle-dark").textContent = document.body.className === "light" ? "🌑" : "☀️"
   });
 </script>
-   {% $importUlka('../components/link.ulka') %}
