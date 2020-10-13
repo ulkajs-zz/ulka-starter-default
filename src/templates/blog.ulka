@@ -11,7 +11,6 @@
   <body class="dark">
     <div class="container">
       <main>
-      
         {% $import('../components/nav.ulka') %}
 
         <div class="blog-title">{% title %}</div>
