@@ -138,3 +138,7 @@ h5:hover .ulka-anchor,
 h6:hover .ulka-anchor {
   visibility: visible;
 }
+
+code.hljs {
+  padding: 10px;
+}

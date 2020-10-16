@@ -21,6 +21,7 @@ module.exports = {
       },
     })
 
+    // set lang as unknown if lang not mentioned
     const rule = md.renderer.rules.fence
     md.renderer.rules.fence = function (tokens, idx, options, env, instance) {
       if (!tokens[idx].params) {

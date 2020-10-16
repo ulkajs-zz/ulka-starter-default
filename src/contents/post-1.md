@@ -1,6 +1,6 @@
 ---
-title: "Getting started with ulka"
-description: "this is a first blog"
+title: 'Getting started with ulka'
+description: 'this is a first blog'
 date: 2020-2-2
 ---
 
@@ -24,6 +24,16 @@ Aliquam eleifend nulla vel nulla ultricies, id viverra justo fringilla. In hac h
 
 "smart quotes"
 'smart quote'
+
+(c)
+
+5 +- 2
+
+(p)
+
+--
+
+https://google.com
 
 ### Images :zap:
 
