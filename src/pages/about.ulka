@@ -1,15 +1,26 @@
-{% const techs = require('/data/tech.js'); %}
+{% 
+const techs = require('/data/tech.js'); 
+
+const head = $import('../snippets/header.ulka', { 
+    title: "About",
+    styles: `
+      <link rel="stylesheet" href="${$assets('../style.css')}" />
+      <link rel="preload" href="${$assets('../style.css')}" as="style" />
+    `
+  });
+
+%}
 
 <!DOCTYPE html>
 <html lang="en">
  
- {% $import('../components/header.ulka', { title: "About" }) %}
+ {% head %}
 
   <body class="dark">
     <div class="container">
       <main>
       
-        {% $import('../components/nav.ulka') %}
+        {% $import('../snippets/nav.ulka') %}
         <h1>This is about me.</h1>
         <br />
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores,
@@ -29,7 +40,7 @@
       </footer>
     </div>
 
-       {% $import('../components/darkMode.ulka') %}
+       {% $import('../snippets/darkMode.ulka') %}
 
   </body>
 </html>

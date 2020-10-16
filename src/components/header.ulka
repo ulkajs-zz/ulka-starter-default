@@ -1,8 +1,0 @@
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{% title %} | {% globalInfo.configs.siteMetaData.title %}</title>
-    {% $import('./metaTags.ulka') %}
-    {% $import('./styles.ulka') %}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/tomorrow-night.min.css" />
-</head>

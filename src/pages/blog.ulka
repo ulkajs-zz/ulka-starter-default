@@ -1,27 +1,35 @@
 {% 
-  const sortedArrayOfContents = globalInfo.contentFiles.contents.slice().sort((a, b) => new Date(b.frontMatter.date) - new Date(a.frontMatter.date))
+  const sortedContents = contents.blog.slice().sort((a, b) => new Date(b.values.frontMatter.date) - new Date(a.values.frontMatter.date))
+
+  const head = $import('../snippets/header.ulka', { 
+    title: "Blog",
+    styles: `
+      <link rel="stylesheet" href="${$assets('../style.css')}" />
+      <link rel="preload" href="${$assets('../style.css')}" as="style" />
+    `
+  });
 %}
 
 <!DOCTYPE html>
 <html lang="en">
 
- {% $import('../components/header.ulka', { title: "Blog" }) %}
+ {% head %}
   
   <body class="dark">
     <div class="container">
       <main>
-        {% $import('../components/nav.ulka') %}
+        {% $import('../snippets/nav.ulka') %}
         <div id="blogs">
       {%
-      sortedArrayOfContents.map(cf => `
+      sortedContents.map(cf => `
           <div class="blog-item">
             <a href="${cf.link}">
-              <div class="blog-title">${cf.frontMatter.title}</div>
+              <div class="blog-title">${cf.values.frontMatter.title}</div>
             </a>
             <div class="blog-desc">
-              ${cf.frontMatter.description}
+              ${cf.values.frontMatter.description}
             </div>
-            <div class="blog-date">${new Date(cf.frontMatter.date).toDateString() } | ${cf.fields.readingTime.text}</div>
+            <div class="blog-date">${new Date(cf.values.frontMatter.date).toDateString()}</div>
           </div>
         `) 
       %}
@@ -32,6 +40,6 @@
       </footer>
     </div>
 
-       {% $import('../components/darkMode.ulka') %}
+       {% $import('../snippets/darkMode.ulka') %}
   </body>
 </html>

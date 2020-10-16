@@ -3,7 +3,7 @@
     <a href="/">ulka</a>
   </div>
   <ul id="nav-links">
-    <li><a href="/about">about</a></li>
-    <li><a href="/blog">blog</a></li>
+    <li><a href="/about/">about</a></li>
+    <li><a href="/blog/">blog</a></li>
   </ul>
 </nav>
