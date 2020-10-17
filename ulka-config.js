@@ -11,6 +11,7 @@ module.exports = {
     'ulka-plugin-sitemap',
     'ulka-plugin-autolink-headers',
     'ulka-plugin-reading-time',
+    'plugin',
   ],
   contents: [
     {

@@ -10,7 +10,7 @@ date: 2020-2-2
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros magna, fermentum a metus sed, accumsan mattis dolor. Aliquam sed tortor at magna hendrerit egestas quis in nisl. Mauris fringilla sit amet nunc pellentesque venenatis. Nunc sodales elit eu sodales mollis. Sed pellentesque posuere ultrices. Proin semper nunc sed feugiat molestie. In vestibulum dictum vestibulum. :bug:
 
-## This is heading 2 8)
+## This is heading 2 :label:
 
 Fusce eu nulla sit amet ex maximus molestie quis vitae nisi. Vivamus facilisis, eros eu condimentum vehicula, nisi ligula cursus nibh, fermentum luctus nibh magna at erat. Donec enim elit, elementum scelerisque mauris vel, aliquet tempor nulla. Pellentesque dictum molestie neque in consequat. Suspendisse sapien sem, hendrerit vel dignissim ac, rhoncus eget magna. Vivamus blandit feugiat dui luctus convallis. Vestibulum id nunc nunc.
 

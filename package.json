@@ -20,6 +20,7 @@
   "homepage": "https://github.com/ulkajs/ulka-starter-default#readme",
   "devDependencies": {},
   "dependencies": {
+    "node-emoji": "^1.10.0",
     "ulka": "^0.6.2",
     "ulka-plugin-autolink-headers": "^1.1.0",
     "ulka-plugin-reading-time": "^1.1.2",
