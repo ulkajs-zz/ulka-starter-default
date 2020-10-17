@@ -21,6 +21,8 @@
   "devDependencies": {},
   "dependencies": {
     "highlight.js": "^10.2.1",
-    "ulka": "^0.6.1-rc.11"
+    "ulka": "^0.6.2-rc.1",
+    "ulka-plugin-reading-time": "^1.1.2",
+    "ulka-plugin-sitemap": "^1.0.8"
   }
 }

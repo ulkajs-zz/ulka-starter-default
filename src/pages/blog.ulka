@@ -29,7 +29,7 @@
             <div class="blog-desc">
               ${cf.values.frontMatter.description}
             </div>
-            <div class="blog-date">${new Date(cf.values.frontMatter.date).toDateString()}</div>
+            <div class="blog-date">${new Date(cf.values.frontMatter.date).toDateString()} | ${cf.values.fields.readingTime.text}</div>
           </div>
         `) 
       %}
