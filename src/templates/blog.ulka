@@ -1,20 +1,28 @@
 {%
-  const { title, date } = frontMatter
-  const { readingTime } = fields
+  const { title, date } = values.frontMatter
+
+  const head = $import('../snippets/header.ulka', { 
+    title: title,
+    styles: `
+       <link rel="stylesheet" href="${$assets('../style.css')}" />
+      <link rel="preload" href="${$assets('../style.css')}" as="style" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/tomorrow-night.min.css" />
+    `
+  })
 %}
 
 <!DOCTYPE html>
 <html lang="en">
 
-   {% $import('../components/header.ulka', { title: title }) %}  
-
+  {% head %}
+  
   <body class="dark">
     <div class="container">
       <main>
-        {% $import('../components/nav.ulka') %}
+        {% $import('../snippets/nav.ulka') %}
 
         <div class="blog-title">{% title %}</div>
-        <span class="blog-date">{% new Date(date).toDateString() %} | {% readingTime.text %}</span>
+        <span class="blog-date">{% new Date(date).toDateString() %}</span>
         <div class="blog-body">
          {% data %}
         </div>
@@ -24,7 +32,7 @@
       </footer>
     </div>
 
-   {% $import('../components/darkMode.ulka') %}
+   {% $import('../snippets/darkMode.ulka') %}
   
   </body>
 </html>

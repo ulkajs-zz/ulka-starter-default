@@ -1,5 +1,3 @@
-// All the configurations are changable
-
 module.exports = {
   siteMetaData: {
     title: 'UlkaJs',
@@ -9,21 +7,13 @@ module.exports = {
   buildPath: 'build',
   pagesPath: 'pages',
   templatesPath: 'templates',
-  plugins: [
-    'ulka-plugin-reading-time',
-    {
-      resolve: 'ulka-plugin-autolink-headers',
-      options: {
-        elements: ['h1', 'h2', 'h3', 'h4'],
-      },
-    },
-    'ulka-plugin-sitemap',
-  ],
+  plugins: ['plugin'],
   contents: [
     {
       path: 'contents',
       generatePath: 'blog',
       template: 'blog.ulka',
+      name: 'blog',
     },
   ],
 }

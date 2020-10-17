@@ -1,6 +1,6 @@
 ---
-title: "Syntax highlighting"
-description: "This blog shows the syntax highlight"
+title: 'Syntax highlighting'
+description: 'This blog shows the syntax highlight'
 date: 2020-2-3
 ---
 
@@ -9,7 +9,7 @@ date: 2020-2-3
 ### Javascript
 
 ```js
-console.log("Hello World");
+console.log('Hello World')
 ```
 
 ### PHP
@@ -83,5 +83,13 @@ public class Java {
 ```js
 #!/usr/bin/env node
 
-console.log("Hello World");
+console.log('Hello World')
+```
+
+### No Language
+
+```
+jsadhfkjlh
+
+print("noice")
 ```

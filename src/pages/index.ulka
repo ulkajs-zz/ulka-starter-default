@@ -1,14 +1,22 @@
+{% 
+const head = $import('../snippets/header.ulka', { 
+    title: "Home",
+    styles: `
+      <link rel="stylesheet" href="${$assets('../style.css')}" />
+      <link rel="preload" href="${$assets('../style.css')}" as="style" />
+    `
+  });
+%}
 <!DOCTYPE html>
 <html lang="en">
-  <head>
- {% $import('../components/header.ulka', { title: "Home" }) %}
-  
-  </head>
+
+ {% head %}  
+
   <body class="dark">
     <div class="container">
       <main>
       
-      {% $import('../components/nav.ulka') %}
+      {% $import('../snippets/nav.ulka') %}
 
         <h2>Hey, I am Roshan 👋</h2>
         <blockquote>creator of ulka js</blockquote>
@@ -26,6 +34,6 @@
       </footer>
     </div>
 
-   {% $import('../components/darkMode.ulka') %}
+   {% $import('../snippets/darkMode.ulka') %}
   </body>
 </html>

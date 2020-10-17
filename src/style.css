@@ -4,7 +4,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: var(--primary-color);
 }
 .light {
@@ -137,4 +137,8 @@ h4:hover .ulka-anchor,
 h5:hover .ulka-anchor,
 h6:hover .ulka-anchor {
   visibility: visible;
+}
+
+code.hljs {
+  padding: 10px;
 }
