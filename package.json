@@ -20,8 +20,8 @@
   "homepage": "https://github.com/ulkajs/ulka-starter-default#readme",
   "devDependencies": {},
   "dependencies": {
-    "highlight.js": "^10.2.1",
-    "ulka": "^0.6.2-rc.1",
+    "ulka": "^0.6.2",
+    "ulka-plugin-autolink-headers": "^1.1.0",
     "ulka-plugin-reading-time": "^1.1.2",
     "ulka-plugin-sitemap": "^1.0.8"
   }

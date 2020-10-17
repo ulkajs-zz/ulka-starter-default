@@ -34,5 +34,14 @@
 
    {% $import('../snippets/darkMode.ulka') %}
   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.1/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightBlock(block);
+      });
+    });
+  </script> 
   </body>
 </html>

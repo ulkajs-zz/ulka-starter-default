@@ -7,7 +7,11 @@ module.exports = {
   buildPath: 'build',
   pagesPath: 'pages',
   templatesPath: 'templates',
-  plugins: ['plugin', 'ulka-plugin-sitemap', 'ulka-plugin-reading-time'],
+  plugins: [
+    'ulka-plugin-sitemap',
+    'ulka-plugin-autolink-headers',
+    'ulka-plugin-reading-time',
+  ],
   contents: [
     {
       path: 'contents',
