@@ -22,7 +22,7 @@
   "dependencies": {
     "node-emoji": "^1.10.0",
     "ulka": "^0.6.2",
-    "ulka-plugin-autolink-headers": "^1.1.0",
+    "ulka-plugin-autolink-headers": "^1.1.1",
     "ulka-plugin-reading-time": "^1.1.2",
     "ulka-plugin-sitemap": "^1.0.8"
   }
