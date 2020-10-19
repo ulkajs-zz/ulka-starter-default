@@ -1,5 +1,5 @@
 {
-  "name": "ulka-starter-default",
+  "name": "ulka-advanced-starter",
   "version": "1.0.0",
   "description": "Default starter for ulka js",
   "main": "index.js",
@@ -10,19 +10,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ulkajs/ulka-starter-default.git"
+    "url": "git+https://github.com/ulkajs/ulka-advanced-starter.git"
   },
   "author": "Roshan Acharya",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ulkajs/ulka-starter-default/issues"
+    "url": "https://github.com/ulkajs/ulka-advanced-starter/issues"
   },
-  "homepage": "https://github.com/ulkajs/ulka-starter-default#readme",
+  "homepage": "https://github.com/ulkajs/ulka-advanced-starter#readme",
   "devDependencies": {},
   "dependencies": {
     "node-emoji": "^1.10.0",
     "ulka": "^0.6.2",
     "ulka-plugin-autolink-headers": "^1.1.1",
+    "ulka-plugin-minifier": "^1.0.0",
     "ulka-plugin-reading-time": "^1.1.2",
     "ulka-plugin-sitemap": "^1.0.8"
   }
