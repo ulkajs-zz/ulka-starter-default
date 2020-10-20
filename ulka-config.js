@@ -9,8 +9,8 @@ module.exports = {
   templatesPath: 'templates',
   plugins: [
     'ulka-plugin-sitemap',
-    'ulka-plugin-autolink-headers',
     'ulka-plugin-reading-time',
+    'ulka-plugin-autolink-headers',
     'ulka-plugin-minifier',
     'plugin',
   ],
