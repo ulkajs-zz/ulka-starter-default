@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ulka-starter-default.netlify.app/sitemap.xml
