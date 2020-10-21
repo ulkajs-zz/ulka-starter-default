@@ -21,7 +21,7 @@
   "devDependencies": {},
   "dependencies": {
     "node-emoji": "^1.10.0",
-    "ulka": "^0.6.5-rc.11",
+    "ulka": "^0.6.6-rc.4",
     "ulka-plugin-autolink-headers": "^1.1.1",
     "ulka-plugin-minifier": "^1.0.0",
     "ulka-plugin-reading-time": "^1.1.5",
