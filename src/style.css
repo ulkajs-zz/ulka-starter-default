@@ -32,6 +32,7 @@ a {
   max-width: 700px;
   margin: auto;
 }
+
 .title a {
   color: var(--heading-color);
 }
@@ -58,21 +59,33 @@ nav .title {
 }
 main {
   min-height: calc(100vh - 40px);
+  padding-bottom: 10px;
 }
 #toggle-dark {
   background: 0 0;
   border: 0;
-  position: absolute;
-  top: 20px;
-  right: 20px;
   font-size: 20px;
-  color: var(--heading-color);
   outline: 0;
-  padding: 0;
   border-radius: 50%;
+  margin: 0;
+  height: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+#toggle-dark svg {
+  height: 100%;
+  width: 100%;
+}
+
+#toggle-dark svg path {
+  fill: var(--primary-invert-color);
+}
+
 .blog-item {
-  padding: 15px 20px;
+  padding: 20px 30px;
   border-radius: 4px;
   box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.3);
   margin-bottom: 20px;
@@ -110,6 +123,13 @@ pre span {
   border-radius: 2px;
   padding: 5px 12px;
   margin: 2px 5px;
+}
+footer {
+  text-align: center;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 code.hljs {

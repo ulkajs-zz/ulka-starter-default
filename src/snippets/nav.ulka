@@ -5,5 +5,8 @@
   <ul id="nav-links">
     <li><a href="/about/">about</a></li>
     <li><a href="/blog/">blog</a></li>
+    <li>
+      <button id="toggle-dark"></button>
+    </li>
   </ul>
 </nav>

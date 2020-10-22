@@ -30,7 +30,9 @@ const head = $import('../snippets/header.ulka', {
 
       </main>
       <footer>
-        &copy; 2020, Ulka Js
+        <span>
+        &copy; 2020, Made with <a href="https://github.com/ulkajs/ulka"> Ulka</a>
+        </span>
       </footer>
     </div>
 

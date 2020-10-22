@@ -12,3 +12,7 @@ function plugin(md) {
     return text_rule(tokens, idx, ...rest)
   }
 }
+
+exports.beforeBuild = ({ info, contentsMap }) => {
+  console.log(contentsMap.blog.map(b => b.values.frontMatter))
+}

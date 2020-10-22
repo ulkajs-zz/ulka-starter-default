@@ -27,8 +27,10 @@
          {% data %}
         </div>
       </main>
-      <footer>
-        &copy; 2020, Ulka Js
+     <footer>
+        <span>
+          &copy; 2020, Made with <a href="https://github.com/ulkajs/ulka"> Ulka</a>
+        </span>
       </footer>
     </div>
 
