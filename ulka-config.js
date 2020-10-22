@@ -17,7 +17,7 @@ module.exports = {
       resolve: 'ulka-plugin-minifier',
       options: {
         html: {
-          collapseWhitespace: false,
+          conservativeCollapse: false,
         },
       },
     },
