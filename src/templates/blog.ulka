@@ -27,11 +27,7 @@
          {% data %}
         </div>
       </main>
-     <footer>
-        <span>
-          &copy; 2020, Made with <a href="https://github.com/ulkajs/ulka"> Ulka</a>
-        </span>
-      </footer>
+          {% $import('../snippets/footer.ulka') %}
     </div>
 
    {% $import('../snippets/darkMode.ulka') %}

@@ -12,8 +12,15 @@ module.exports = {
     'ulka-plugin-sitemap',
     'ulka-plugin-reading-time',
     'ulka-plugin-autolink-headers',
-    'ulka-plugin-minifier',
     'plugin',
+    {
+      resolve: 'ulka-plugin-minifier',
+      options: {
+        html: {
+          collapseWhitespace: false,
+        },
+      },
+    },
   ],
   contents: [
     {
